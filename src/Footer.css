@@ -1,0 +1,35 @@
+.site-footer {
+    padding: 28px 20px;
+    text-align: center;
+    background: #ffffff;
+    border-top: 1px solid #dce8f5;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.footer-links a {
+    color: #596579;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #2878d4;
+}
+
+.footer-links span {
+    color: #9aabc0;
+}
+
+.footer-copyright {
+    margin: 16px 0 0;
+    color: #718096;
+    font-size: 13px;
+}
