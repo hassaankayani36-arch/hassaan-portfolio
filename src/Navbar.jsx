@@ -12,7 +12,7 @@ function Navbar() {
         <header className="site-header">
             <nav className="navbar">
                 <a className="logo" href="#home" onClick={closeMenu}>
-                    Hassaan.
+                    Hassaan
                 </a>
 
                 <button

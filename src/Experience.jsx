@@ -2,7 +2,7 @@ import './Experience.css'
 
 const responsibilities = [
     'Build responsive web interfaces with React, JavaScript, HTML, and CSS.',
-    'Create reusable components and organize clear, maintainable page layouts.',
+    'Create re usable components and organize clear, maintainable page layouts.',
     'Test layouts across screen sizes and refine usability through iteration.',
     'Use Git and GitHub to track and manage project code.',
 ]
