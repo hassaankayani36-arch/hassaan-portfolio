@@ -6,32 +6,32 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80',
         description: 'A responsive travel website built with React, destination cards, and modern navigation.',
         technologies: ['React', 'JavaScript', 'CSS'],
-        liveDemo: '#',
-        github: '#',
+        liveDemo: 'https://travel-tour-app-jmju.vercel.app/',
+        github: 'https://github.com/hassaankayani36-arch/travel-tour-app/tree/master/src',
     },
     {
         title: 'Weather Dashboard',
         image: 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?auto=format&fit=crop&w=900&q=80',
         description: 'A clean weather dashboard that presents location-based forecasts through a simple interface.',
         technologies: ['React', 'API', 'CSS'],
-        liveDemo: '#',
-        github: '#',
+        liveDemo: 'https://wheather-app-8wbi.vercel.app/',
+        github: 'https://github.com/hassaankayani36-arch/Wheather-App/tree/main/src',
     },
     {
-        title: 'Task Management App',
-        image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&w=900&q=80',
-        description: 'A focused task manager designed to organize daily work with clear, responsive UI patterns.',
+        title: 'Quiz App',
+        image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=80',
+        description: 'An interactive quiz app for testing knowledge and reviewing answers.',
         technologies: ['JavaScript', 'HTML', 'CSS'],
-        liveDemo: '#',
-        github: '#',
+        liveDemo: 'https://quiz-app-hasssaan.vercel.app/',
+        github: '',
     },
     {
         title: 'Personal Portfolio',
         image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=900&q=80',
         description: 'A responsive portfolio website showcasing projects, skills, and frontend development work.',
         technologies: ['React', 'JavaScript', 'CSS'],
-        liveDemo: '#',
-        github: '#',
+        liveDemo: 'https://hassaan-portfolio-livid.vercel.app/',
+        github: 'https://github.com/hassaankayani36-arch/hassaan-portfolio/tree/main/src',
     },
 ]
 
@@ -59,8 +59,12 @@ function Projects() {
                                     ))}
                                 </div>
                                 <div className="project-links">
-                                    <a href={project.liveDemo}>Live Demo</a>
-                                    <a href={project.github}>GitHub</a>
+                                    {project.liveDemo && (
+                                        <a href={project.liveDemo} target="_blank" rel="noreferrer">Live Demo</a>
+                                    )}
+                                    {project.github && (
+                                        <a href={project.github} target="_blank" rel="noreferrer">GitHub</a>
+                                    )}
                                 </div>
                             </div>
                         </article>

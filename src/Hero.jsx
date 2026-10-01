@@ -17,11 +17,11 @@ function Hero() {
                     <p className="hero-quote">Turning ideas into interfaces. Building experiences that matter.</p>
                     <div className="hero-buttons">
                         <a className="primary-button" href="#projects">Explore My Work</a>
-                        <a className="secondary-button" href="/Hassaan-Kayani-CV.pdf" download>Download CV</a>
+                        <a className="secondary-button" href="/Hassaan_Europass_CV.pdf" download>Download CV</a>
                     </div>
                     <div className="social-links">
-                        <a href="https://github.com/">GitHub</a>
-                        <a href="https://www.linkedin.com/">LinkedIn</a>
+                        <a href="https://github.com/hassaankayani36-arch" target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/hassaan-bin-saeed-28a9393b9?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">LinkedIn</a>
                     </div>
                 </div>
             </section>
