@@ -19,11 +19,11 @@ const projects = [
     },
     {
         title: 'Quiz App',
-        image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=80',
+        image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80',
         description: 'An interactive quiz app for testing knowledge and reviewing answers.',
         technologies: ['JavaScript', 'HTML', 'CSS'],
         liveDemo: 'https://quiz-app-hasssaan.vercel.app/',
-        github: '',
+        github: 'https://github.com/hassaankayani36-arch/Quiz-App',
     },
     {
         title: 'Personal Portfolio',
