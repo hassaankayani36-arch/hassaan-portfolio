@@ -21,11 +21,11 @@ function Hero() {
                     </div>
                     <div className="social-links">
                         <a href="https://github.com/hassaankayani36-arch" target="_blank" rel="noreferrer">GitHub</a>
-                        <a href="https://www.linkedin.com/in/hassaan-bin-saeed-28a9393b9?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/hassaan-bin-saeed-28a9393b9/?isSelfProfile=true" target="_blank" rel="noreferrer">LinkedIn</a>
                     </div>
                 </div>
             </section>
-        </main>
+        </main >
     )
 }
 
