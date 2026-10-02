@@ -1,26 +1,9 @@
 import './Contact.css'
-import { useState } from 'react'
 
 const contactEmail = 'hassaankayani36@gmail.com'
 const contactPhone = '+923190731434'
 
 function Contact() {
-    const [messageStatus, setMessageStatus] = useState('')
-
-    function handleSubmit(event) {
-        event.preventDefault()
-
-        const formData = new FormData(event.currentTarget)
-        const name = formData.get('name')
-        const email = formData.get('email')
-        const message = formData.get('message')
-        const subject = `Portfolio message from ${name}`
-        const body = `Name: ${name}\nEmail: ${email}\n\n${message}`
-
-        setMessageStatus('Your email app is opening with your message ready. Send it there, and I will get back to you as soon as possible.')
-        window.location.href = `mailto:${contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
-    }
-
     return (
         <section className="contact-section" id="contact">
             <div className="contact-container">
@@ -39,7 +22,13 @@ function Contact() {
 
                     </div>
 
-                    <form className="contact-form" onSubmit={handleSubmit}>
+                    <form
+                        className="contact-form"
+                        action={`https://formsubmit.co/${contactEmail}`}
+                        method="POST"
+                    >
+                        <input type="hidden" name="_subject" value="New portfolio contact message" />
+
                         <label htmlFor="contact-name">Full Name</label>
                         <input
                             id="contact-name"
@@ -70,11 +59,6 @@ function Contact() {
                         />
 
                         <button type="submit">Send Message</button>
-                        {messageStatus && (
-                            <p className="contact-form-status" role="status" aria-live="polite">
-                                {messageStatus}
-                            </p>
-                        )}
                     </form>
                 </div>
             </div>
