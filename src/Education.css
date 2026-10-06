@@ -1,0 +1,131 @@
+.education-section {
+    padding: 108px 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #dce8f5;
+}
+
+.education-container {
+    width: min(1120px, 100%);
+    margin: 0 auto;
+}
+
+.education-heading {
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.education-heading .section-label {
+    margin: 0 0 14px;
+    color: #2878d4;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.education-heading h2 {
+    margin: 0;
+    color: #18212f;
+    font-size: clamp(30px, 4vw, 42px);
+    line-height: 1.15;
+}
+
+.education-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.education-item {
+    min-width: 0;
+    padding: 26px 24px;
+    background: #f5f9fe;
+    border: 1px solid #dce8f5;
+    border-top: 3px solid #2878d4;
+    border-radius: 5px;
+}
+
+.education-item h3 {
+    margin: 0 0 12px;
+    color: #18212f;
+    font-size: 19px;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+}
+
+.education-institution {
+    min-height: 48px;
+    margin: 0 0 16px;
+    color: #596579;
+    font-size: 15px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.education-detail {
+    margin: 0;
+    color: #2878d4;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media (max-width: 800px) {
+    .education-list {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .education-institution {
+        min-height: 0;
+    }
+}
+
+@media (max-width: 520px) {
+    .education-section {
+        padding: 76px 16px;
+    }
+
+    .education-heading {
+        margin-bottom: 30px;
+    }
+
+    .education-item {
+        padding: 22px 20px;
+    }
+}
+
+.education-section {
+    background: #fff;
+    border-bottom-color: var(--line);
+}
+
+.education-heading h2,
+.education-item h3 {
+    color: var(--ink);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.education-list {
+    gap: 16px;
+}
+
+.education-item {
+    padding: 28px 24px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-top: 3px solid #82b34b;
+    border-radius: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.education-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 28px rgba(19, 37, 31, 0.08);
+}
+
+.education-institution {
+    color: var(--muted);
+}
+
+.education-detail {
+    color: #507c40;
+}
