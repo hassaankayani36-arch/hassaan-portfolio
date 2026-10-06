@@ -1,5 +1,4 @@
 import './About.css'
-import profileImage from './assets/profile-picture/profile-picture.jpeg'
 
 function About() {
     return (
@@ -34,7 +33,7 @@ function About() {
 
                 <div className="about-image-wrap">
                     <div className="about-image-frame">
-                        <img src={profileImage} alt="Hassaan Bin Saeed" />
+                        <img src="/hassaan-profile.jpeg" alt="Hassaan Bin Saeed" />
                     </div>
                     <span className="about-image-caption">Frontend Developer</span>
                 </div>
