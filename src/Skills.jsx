@@ -27,8 +27,7 @@ const categories = ['All', 'Frontend', 'Tools', 'Other']
 function Skills() {
     const [selectedCategory, setSelectedCategory] = useState('All')
 
-    const visibleSkills = selectedCategory === 'All' ? skills
-        : skills.filter((skill) => skill.category === selectedCategory)
+    const visibleSkills = selectedCategory === 'All' ? skills : skills.filter((skill) => skill.category === selectedCategory)
 
     return (
         <section className="skills-section" id="skills">
