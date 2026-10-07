@@ -105,3 +105,273 @@
         font-size: 28px;
     }
 }
+
+body .site-header {
+    background: rgba(17, 17, 16, 0.94);
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+body .logo {
+    color: #f1f0ed;
+}
+
+body .logo::after {
+    background: var(--lime);
+}
+
+body .nav-links a {
+    color: #aaa8a3;
+}
+
+body .nav-links a:hover {
+    color: var(--lime);
+}
+
+body .nav-links .contact-link,
+body .nav-links .contact-link:hover {
+    color: #191714;
+    background: var(--lime);
+    border-radius: 999px;
+}
+
+body .menu-button {
+    color: #f1f0ed;
+}
+
+body .hero {
+    background-color: #111110;
+    background-image:
+        radial-gradient(ellipse at 78% 48%, rgba(242, 173, 53, 0.12), transparent 38%),
+        linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+        linear-gradient(135deg, #151513 0%, #111110 58%, #17140f 100%);
+    background-size: auto, 48px 48px, 48px 48px, 100% 100%;
+}
+
+body .hero h1 span,
+body .hero-intro,
+body .hero h2 .divider,
+body .hero h2 b,
+body .education-detail,
+body .experience-type,
+body .experience-details li::marker {
+    color: var(--lime);
+}
+
+body .hero-intro {
+    background: rgba(242, 173, 53, 0.08);
+    border-color: rgba(242, 173, 53, 0.3);
+}
+
+body .hero-quote {
+    border-color: var(--lime);
+}
+
+body .primary-button,
+body .primary-button:hover,
+body .secondary-button:hover {
+    color: #191714;
+    background: var(--lime);
+    border-color: var(--lime);
+}
+
+body .profile-card {
+    background: rgba(255, 255, 255, 0.025);
+    border-color: rgba(255, 255, 255, 0.09);
+}
+
+body .profile-card::before {
+    background: rgba(242, 173, 53, 0.18);
+}
+
+body .profile-badge {
+    color: #191714;
+    background: rgba(242, 173, 53, 0.95);
+    border-color: rgba(242, 173, 53, 0.8);
+}
+
+body .about-section,
+body .skills-section,
+body .contact-section {
+    background-color: #151514;
+    border-bottom-color: var(--line);
+}
+
+body .about-content {
+    border-left-color: var(--lime);
+}
+
+body .about-content h2,
+body .about-content strong,
+body .skills-heading h2,
+body .skill-card h3,
+body .education-heading h2,
+body .education-item h3,
+body .experience-heading h2,
+body .experience-role h3,
+body .experience-details h4,
+body .projects-heading h2,
+body .project-content h3,
+body .contact-heading h2 {
+    color: #f1f0ed;
+}
+
+body .about-content p:not(.section-label),
+body .skills-heading > p:last-child,
+body .skill-card p,
+body .education-institution,
+body .experience-company,
+body .experience-details ul,
+body .project-content > p {
+    color: #aaa8a3;
+}
+
+body .education-section,
+body .projects-section,
+body .experience-section {
+    background: #111110;
+    border-bottom-color: var(--line);
+}
+
+body .skill-card,
+body .education-item,
+body .project-card,
+body .experience-entry {
+    background: #1b1b19;
+    border-color: #30302d;
+    border-radius: 14px;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+}
+
+body .skill-card:hover,
+body .education-item:hover,
+body .project-card:hover {
+    border-color: rgba(242, 173, 53, 0.55);
+    box-shadow: 0 20px 42px rgba(0, 0, 0, 0.28);
+}
+
+body .skill-icon {
+    color: var(--lime);
+    background: rgba(242, 173, 53, 0.1);
+    border-color: rgba(242, 173, 53, 0.2);
+}
+
+body .skill-filters button {
+    color: #c7c4be;
+    background: #1b1b19;
+    border-color: #383733;
+    border-radius: 999px;
+}
+
+body .skill-filters button:hover,
+body .skill-filters button.active {
+    color: #191714;
+    background: var(--lime);
+    border-color: var(--lime);
+}
+
+body .education-item {
+    border-top: 2px solid var(--lime);
+}
+
+body .experience-entry {
+    border-left: 3px solid var(--lime);
+}
+
+body .project-image-wrapper {
+    background: #24231f;
+}
+
+body .project-links a {
+    color: #f1f0ed;
+    border-color: #48453d;
+    border-radius: 999px;
+}
+
+body .project-links a:first-child,
+body .project-links a:hover {
+    color: #191714;
+    background: var(--lime);
+    border-color: var(--lime);
+}
+
+body .contact-details,
+body .contact-form {
+    background: #1b1b19;
+    border: 1px solid #30302d;
+    border-radius: 16px;
+}
+
+body .contact-form label {
+    color: #e5e2dc;
+}
+
+body .contact-form input,
+body .contact-form textarea {
+    color: #f1f0ed;
+    background: #131312;
+    border-color: #383733;
+    border-radius: 8px;
+}
+
+body .contact-form input:focus,
+body .contact-form textarea:focus {
+    border-color: var(--lime);
+    outline-color: rgba(242, 173, 53, 0.2);
+}
+
+body .contact-form button,
+body .whatsapp-link {
+    color: #191714;
+    background: var(--lime);
+    border-color: var(--lime);
+    border-radius: 999px;
+}
+
+body .contact-form button:hover,
+body .whatsapp-link:hover {
+    color: #191714;
+    background: #ffc45b;
+    border-color: #ffc45b;
+}
+
+body .contact-detail-link,
+body .contact-name {
+    color: #d5d2cc;
+}
+
+body .contact-detail-link:hover {
+    color: var(--lime);
+}
+
+body .contact-form-status {
+    color: #e5e2dc;
+    background: #24211b;
+    border-color: #48402e;
+    border-left-color: var(--lime);
+}
+
+body .site-footer {
+    background: #0d0d0c;
+}
+
+body .footer-logo span {
+    color: var(--lime);
+}
+
+body .footer-nav-block h3,
+body .footer-social-block h3 {
+    color: #f1f0ed;
+}
+
+body .footer-links a:hover,
+body .footer-social-links a:hover {
+    color: var(--lime);
+}
+
+@media (max-width: 768px) {
+    body .nav-links {
+        background: #171716;
+        border-color: #30302d;
+    }
+}

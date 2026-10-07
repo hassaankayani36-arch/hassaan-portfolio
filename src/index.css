@@ -99,7 +99,7 @@ textarea {
 .hero {
   background-color: #111110;
   background-image:
-    radial-gradient(ellipse at 78% 48%, rgba(242, 173, 53, 0.09), transparent 38%),
+    radial-gradient(ellipse at 78% 48%, rgba(242, 173, 53, 0.12), transparent 38%),
     linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
     linear-gradient(135deg, #151513 0%, #111110 58%, #17140f 100%);
