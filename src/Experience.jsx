@@ -27,7 +27,8 @@ function Experience() {
                         <h4>Responsibilities</h4>
                         <ul>
                             {responsibilities.map((responsibility) => (
-                                <li key={responsibility}>{responsibility}</li>
+                                <li key={responsibility}>{responsibility}
+                                </li>
                             ))}
                         </ul>
                     </div>
