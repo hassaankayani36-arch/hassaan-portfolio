@@ -13,16 +13,9 @@ const skills = [
     { name: 'VS Code', category: 'Tools', description: 'Code Editor', icon: 'VS' },
     { name: 'REST APIs', category: 'Tools', description: 'Data Integration', icon: 'API' },
     { name: 'npm', category: 'Tools', description: 'Package Manager', icon: 'npm' },
-    { name: 'Problem Solving', category: 'Other', description: 'Practical Solutions', icon: '?' },
-    { name: 'Teamwork', category: 'Other', description: 'Collaborative Work', icon: 'TM' },
-    { name: 'Project Management', category: 'Other', description: 'Organized Delivery', icon: 'PM' },
-    { name: 'Communication', category: 'Other', description: 'Clear Collaboration', icon: 'C' },
-    { name: 'Management', category: 'Other', description: 'Team and Task Planning', icon: 'M' },
-    { name: 'Network Operator', category: 'Other', description: 'Network Operations', icon: 'NO' },
-    { name: 'CSR', category: 'Other', description: 'Customer Service Representative', icon: 'CS' },
 ]
 
-const categories = ['All', 'Frontend', 'Tools', 'Other']
+const categories = ['All', 'Frontend', 'Tools']
 
 function Skills() {
     const [selectedCategory, setSelectedCategory] = useState('All')
